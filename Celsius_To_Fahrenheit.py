@@ -1,6 +1,3 @@
-def celsius_to_fahrenheit(celsius):
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
-celsius = float(input())
-fahrenheit = celsius_to_fahrenheit(celsius)
-print("{:.2f}".format(fahrenheit))
+c=float(input())
+f=(9*c/5)+32
+print("%.2f"%f)
